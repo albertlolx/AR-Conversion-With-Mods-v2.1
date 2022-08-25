@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="settings">
+            <p>↓ Input the no-mod ar and desired mods of the beatmap ↓ </p>
+            <div class="mods-container">
+                <button id="dt" class="mod"><img src="images/icons/07selection-mod-doubletimea2xpng.png" alt="doubletime-mod"></button>
+                <button id="hr" class="mod"><img src="images/icons/04selection-mod-hardrocka2xpng.png" alt="hardrock-mod"></button>
+                <button id="ez" class="mod"><img src="images/icons/01selection-mod-easya2xpng.png" alt="easy-mod"></button>
+            </div>
+            <input id="ar-input" type="text" autofocus>
+        </div>
+
+        <div class="result-container">
+            <div id="ar-result-container">
+                <h3>Approach Rate: </h3>
+                <h1></h1>
+            </div>
+            <div id="at-result-container">
+                <h3>Approach Time: </h3>
+                <h2></h2>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
